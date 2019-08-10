@@ -16,21 +16,30 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ml-auto">
-                <li class="navbar-brand nav-item nav-link active"><a link class="text" href="index.html">About</a><span class="sr-only">(current)</span></li>
-                <li class="navbar-brand nav-item nav-link"><a link class="text" href="profolio.html">Profolio</a></li>
-                <li class="nav-item navbar-brand nav-link"><a link class="text" href="contact.html">Contract</a></li>
+                    <li class="navbar-brand nav-item nav-link active"><a link class="text" href="index.html">About</a><span class="sr-only">(current)</span></li>
+                    <li class="navbar-brand nav-item nav-link"><a link class="text" href="profolio.html">Profolio</a></li>
+                    <li class="nav-item navbar-brand nav-link"><a link class="text" href="contact.html">Contract</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <section class="offset-lg-3 col-lg-6 border section bg-white rounded-lg">
-        <h1 class="offset-lg-1 col-lg-10" id="about">About Me</h1>
-        <div class="row">
-            <img class=" offset-lg-1 float-left pic" src="assets/images/grant.jpg">
-            <p class="offset-lg-1 col-lg-6 offset-sm-1 col-sm-10" id="para">My name is Grant Jackson. I'm from Crystal Lake IL, about one hour northwest of Chicago.
-                    I moved to Austin in the summer of 2013. I have been working in the restaurant industry since high school and have a degree in culinary degree. I  have held many positions from line cook to general manager but my favorite was bartending on sixth street. Deciding that I needed a career change I’m moving on to computer science. I have been married for a little over one and a half years to my lovely wife Lauren. We have 2 dogs, Lando an Australian shepherd, and Eva a husky mix. They are our fur babies and we love them very much.
-            </p>
-        </div>  
+        <h1 class="offset-lg-1 col-lg-10" id="about">Contact</h1>
+        <div class="form-group offset-lg-1">
+            <label class=contact>Name</label>
+            <input class="contact form-control col-lg-11" type="text" placeholder="John Smith">
+        </div>
+        <div class="form-group offset-lg-1">
+            <label class=contact> E-Mail</label>
+            <input class="contact form-control col-lg-11" type="text" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group offset-lg-1">
+            <label class=contact> Message</label>
+            <input class="contact form-control col-lg-11" id=message type="text" placeholder="">
+        </div>
+        <div class="offset-lg-1 mb-4">
+            <button class="contact but"  id=button type="button" onclick="alert('You pressed the button!')">Submit</button>
+        </div>
     </section>
     <footer class="bg-secondary footer">
         <p class="text-center">copyright &copy;</p>
